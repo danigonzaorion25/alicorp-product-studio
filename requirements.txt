@@ -1,0 +1,18 @@
+# Este es un proyecto de JavaScript/TypeScript, no un proyecto de Python.
+# No utiliza un archivo requirements.txt para gestionar las dependencias.
+
+# Las dependencias se gestionan directamente en el archivo `index.html` utilizando un "import map"
+# y se cargan desde una CDN (Content Delivery Network). Las librerías requeridas son:
+#
+# - React (^19.1.1)
+# - React DOM (^19.1.1)
+# - @google/genai (^1.19.0)
+#
+# Para el desarrollo local, es posible que necesites un servidor HTTP simple, ya que
+# los módulos de ES6 no funcionan con el protocolo file://.
+# Si tienes Node.js instalado, puedes usar el paquete 'serve':
+#
+# > npm install -g serve
+# > serve .
+#
+# No es necesario instalar las dependencias del proyecto a través de npm o pip.
